@@ -1,0 +1,207 @@
+{
+  "benchmarks": {
+    "lcbench": {
+      "dataset_directory_canonical_sha256": "e848d0ed12737afa06e4c8fc33fa20e0433e42be6eb2a81dc02024d45d38e651",
+      "dataset_directory_runner_sha256": "cd84c2290731a07f8070c2a21a72d49ee13cc5b67ebc0486cb4c8457d27a6e38",
+      "encoder_id": "hp_encoders.encode_lcbench/lcbench-seven-float32-v1",
+      "geometry": {
+        "active_dimension_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "canonical_feature_sha256": "51a9ccc8f4bd055a5df3d7cc584590b65debcd1830b57514a14f92c1ecd5774f",
+        "dimension_names": [
+          "batch_size",
+          "learning_rate",
+          "max_dropout",
+          "max_units",
+          "momentum",
+          "num_layers",
+          "weight_decay"
+        ],
+        "input_row_count": 2000,
+        "lengthscale_binary64_hex": [
+          "0x1.33b6494000000p-2",
+          "0x1.1d0dc48000000p-2",
+          "0x1.261eb68000000p-2",
+          "0x1.2bf4dc0000000p-2",
+          "0x1.d6a1f2c000000p-3",
+          "0x1.0000000000000p-1",
+          "0x1.3237080000000p-4"
+        ],
+        "lengthscales": [
+          0.3005000539124012,
+          0.2783728316426277,
+          0.2872265353798866,
+          0.29292625188827515,
+          0.22980107925832272,
+          0.5,
+          0.07475951313972473
+        ],
+        "positive_pair_counts": [
+          1988302,
+          1999000,
+          1999000,
+          1995255,
+          1999000,
+          1490780,
+          1998998
+        ],
+        "removed_constant_dimensions": [],
+        "total_pair_count": 1999000,
+        "unique_row_count": 2000,
+        "zero_pair_counts": [
+          10698,
+          0,
+          0,
+          3745,
+          0,
+          508220,
+          2
+        ]
+      },
+      "provenance_access": "all dataset-directory bytes are hashed; only config objects are decoded for geometry",
+      "source_file_sha256": "65455e2719a5cf9c024868bfa99c72ec8a0204292db7bc4d6810975827e4b5a2",
+      "source_path": "datasets/lcbench/data_2k_lw.json",
+      "source_validation": {
+        "json_dialect": "Python json numeric dialect; NaN and signed Infinity tokens are accepted lexically in skipped values",
+        "raw_config_count_per_task": 2000,
+        "source_access": "structural mmap parse; log syntax is validated without converting or retaining curve scalars, and only config objects are decoded",
+        "task_count": 35,
+        "task_names": [
+          "APSFailure",
+          "Amazon_employee_access",
+          "Australian",
+          "Fashion-MNIST",
+          "KDDCup09_appetency",
+          "MiniBooNE",
+          "adult",
+          "airlines",
+          "albert",
+          "bank-marketing",
+          "blood-transfusion-service-center",
+          "car",
+          "christine",
+          "cnae-9",
+          "connect-4",
+          "covertype",
+          "credit-g",
+          "dionis",
+          "fabert",
+          "helena",
+          "higgs",
+          "jannis",
+          "jasmine",
+          "jungle_chess_2pcs_raw_endgame_complete",
+          "kc1",
+          "kr-vs-kp",
+          "mfeat-factors",
+          "nomao",
+          "numerai28.6",
+          "phoneme",
+          "segment",
+          "shuttle",
+          "sylvine",
+          "vehicle",
+          "volkert"
+        ]
+      }
+    },
+    "pd1": {
+      "encoder_id": "build_pd1_cache.encode_hps/pd1-four-float32-v1",
+      "expected_source_file_sha256": "f28bca495849dcd8403173fac3be1c21d3395eb496ffbbcce70da46b308950bc",
+      "geometry": {
+        "active_dimension_indices": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "canonical_feature_sha256": "f572eb62cf2e3d602396734696051a057ab644e2465e576ffc3729badcb54262",
+        "dimension_names": [
+          "initial_value",
+          "power",
+          "decay_steps_factor",
+          "one_minus_momentum"
+        ],
+        "input_row_count": 242,
+        "lengthscale_binary64_hex": [
+          "0x1.16dd1c0000000p-2",
+          "0x1.3d07240000000p-2",
+          "0x1.3804300000000p-2",
+          "0x1.30e3160000000p-2"
+        ],
+        "lengthscales": [
+          0.27232784032821655,
+          0.30959755182266235,
+          0.3047034740447998,
+          0.29774126410484314
+        ],
+        "positive_pair_counts": [
+          29161,
+          29161,
+          29161,
+          29161
+        ],
+        "removed_constant_dimensions": [],
+        "total_pair_count": 29161,
+        "unique_row_count": 242,
+        "zero_pair_counts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "provenance_access": "all NPZ bytes are hashed; only __hps members are decompressed for geometry",
+      "source_file_sha256": "f28bca495849dcd8403173fac3be1c21d3395eb496ffbbcce70da46b308950bc",
+      "source_path": "datasets/pd1/pd1_all_curves_15tasks.npz",
+      "source_validation": {
+        "raw_config_count_per_task": 242,
+        "source_access": "only __hps NPZ members are loaded; curve members are not accessed",
+        "task_count": 15,
+        "task_names": [
+          "cifar100_wide_resnet_batch_size_256",
+          "cifar10_wide_resnet_batch_size_256",
+          "fashion_mnist_max_pooling_cnn_relu_batch_size_256",
+          "fashion_mnist_max_pooling_cnn_tanh_batch_size_256",
+          "fashion_mnist_simple_cnn_relu_batch_size_256",
+          "imagenet_resnet_batch_size_256",
+          "imagenet_resnet_batch_size_512",
+          "lm1b_transformer_batch_size_2048",
+          "mnist_max_pooling_cnn_relu_batch_size_256",
+          "mnist_max_pooling_cnn_tanh_batch_size_256",
+          "mnist_simple_cnn_relu_batch_size_256",
+          "svhn_no_extra_wide_resnet_batch_size_1024",
+          "svhn_no_extra_wide_resnet_batch_size_256",
+          "translate_wmt_xformer_translate_batch_size_64",
+          "uniref50_transformer_batch_size_128"
+        ]
+      }
+    }
+  },
+  "integrity_sha256": "fe2255b9430353dffb905884a9501b0142c62d0064422f34e202fa7e9cc25f9f",
+  "outcomes_used": false,
+  "rule": {
+    "constant_dimension_action": "remove from features and ARD vector",
+    "id": "median-positive-pairwise-absolute-gap-float32/v1",
+    "input_precision": "source encodings cast to IEEE-754 binary32",
+    "median": "sorted middle value; midpoint of two middle values when even",
+    "median_arithmetic": "IEEE-754 binary64",
+    "pair_set": "all unordered row pairs independently per dimension",
+    "pool": "lexicographically sorted unique encoded feature rows",
+    "scope": "one frozen vector per benchmark across all tasks and episodes",
+    "zero_gap_action": "exclude"
+  },
+  "schema": "hp-geometry/v1",
+  "source_sha256": {
+    "hp_encoders.py": "be7b47462172a4c64909ab40406897b712855c28fedad5a29c505aaac09442fe",
+    "hp_geometry.py": "37031ff8de2d6e23ae301a1b816b0f14743307b4eb337e1f1ae2c2e3067de9bc"
+  },
+  "status": "derived_and_frozen_before_shared_policy_outcomes"
+}

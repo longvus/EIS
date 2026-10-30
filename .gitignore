@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+/datasets/
+/build/
+/staging/shared_temporal_gp/v1/replay_arrays/
+tex/*.aux
+tex/*.log
+tex/*.out
+tex/*.fls
+tex/*.fdb_latexmk
+tex/*.blg
+tex/*.bbl
+tex/*.pdf
+/cfbo_ref/
