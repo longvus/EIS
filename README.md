@@ -1,6 +1,7 @@
 # Cost-Aware Stopping for Freeze–Thaw Bayesian Optimization
 
 Code for the paper *Cost-Aware Stopping for Freeze–Thaw Bayesian Optimization: When Does One-Step Lookahead Suffice?*
+([arXiv:2610.42085](https://arxiv.org/abs/2610.42085)).
 It runs EI stopping and H2 stopping under the paper's three Gaussian learning-curve surrogates on recorded
 hyperparameter-optimization curves from LCBench, PD1 and ODBench.
 
